@@ -13,9 +13,7 @@ on:
     types: published
   push:
     branches:
-      - main
-    paths:
-      - '.config'
+      - master
   #schedule:
   #  - cron: 0 16 * * *
 
